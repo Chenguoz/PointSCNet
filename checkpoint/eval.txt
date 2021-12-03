@@ -1,0 +1,45 @@
+2021-11-30 18:50:58,111 - Model - INFO - PARAMETER ...
+2021-11-30 18:50:58,111 - Model - INFO - Namespace(batch_size=24, gpu='0', log_dir='att_dot_test', num_category=40, num_point=1024, num_votes=2, use_cpu=False, use_normals=True, use_uniform_sample=False)
+2021-11-30 18:50:58,111 - Model - INFO - Load dataset ...
+2021-11-30 18:50:58,117 - Model - INFO - PointSCNet
+2021-11-30 18:51:38,716 - Model - INFO - Test Instance Accuracy: 0.937217, Class Accuracy: 0.914043
+2021-11-30 18:51:38,716 - Model - INFO - Class airplane Accuracy: 1.000000
+2021-11-30 18:51:38,716 - Model - INFO - Class bathtub Accuracy: 0.986111
+2021-11-30 18:51:38,716 - Model - INFO - Class bed Accuracy: 1.000000
+2021-11-30 18:51:38,716 - Model - INFO - Class bench Accuracy: 0.845238
+2021-11-30 18:51:38,716 - Model - INFO - Class bookshelf Accuracy: 0.988889
+2021-11-30 18:51:38,716 - Model - INFO - Class bottle Accuracy: 0.960714
+2021-11-30 18:51:38,716 - Model - INFO - Class bowl Accuracy: 1.000000
+2021-11-30 18:51:38,716 - Model - INFO - Class car Accuracy: 1.000000
+2021-11-30 18:51:38,716 - Model - INFO - Class chair Accuracy: 0.991667
+2021-11-30 18:51:38,716 - Model - INFO - Class cone Accuracy: 1.000000
+2021-11-30 18:51:38,717 - Model - INFO - Class cup Accuracy: 0.750000
+2021-11-30 18:51:38,717 - Model - INFO - Class curtain Accuracy: 0.880952
+2021-11-30 18:51:38,717 - Model - INFO - Class desk Accuracy: 0.903472
+2021-11-30 18:51:38,717 - Model - INFO - Class door Accuracy: 0.968750
+2021-11-30 18:51:38,717 - Model - INFO - Class dresser Accuracy: 0.883333
+2021-11-30 18:51:38,717 - Model - INFO - Class flower_pot Accuracy: 0.111111
+2021-11-30 18:51:38,717 - Model - INFO - Class glass_box Accuracy: 0.949242
+2021-11-30 18:51:38,717 - Model - INFO - Class guitar Accuracy: 1.000000
+2021-11-30 18:51:38,717 - Model - INFO - Class keyboard Accuracy: 1.000000
+2021-11-30 18:51:38,717 - Model - INFO - Class lamp Accuracy: 1.000000
+2021-11-30 18:51:38,717 - Model - INFO - Class laptop Accuracy: 1.000000
+2021-11-30 18:51:38,717 - Model - INFO - Class mantel Accuracy: 0.986111
+2021-11-30 18:51:38,717 - Model - INFO - Class monitor Accuracy: 0.991667
+2021-11-30 18:51:38,717 - Model - INFO - Class night_stand Accuracy: 0.798611
+2021-11-30 18:51:38,717 - Model - INFO - Class person Accuracy: 1.000000
+2021-11-30 18:51:38,717 - Model - INFO - Class piano Accuracy: 0.940000
+2021-11-30 18:51:38,717 - Model - INFO - Class plant Accuracy: 0.833333
+2021-11-30 18:51:38,717 - Model - INFO - Class radio Accuracy: 0.750000
+2021-11-30 18:51:38,717 - Model - INFO - Class range_hood Accuracy: 0.925000
+2021-11-30 18:51:38,717 - Model - INFO - Class sink Accuracy: 0.900000
+2021-11-30 18:51:38,717 - Model - INFO - Class sofa Accuracy: 1.000000
+2021-11-30 18:51:38,717 - Model - INFO - Class stairs Accuracy: 1.000000
+2021-11-30 18:51:38,717 - Model - INFO - Class stool Accuracy: 0.968750
+2021-11-30 18:51:38,717 - Model - INFO - Class table Accuracy: 0.880000
+2021-11-30 18:51:38,717 - Model - INFO - Class tent Accuracy: 0.968750
+2021-11-30 18:51:38,717 - Model - INFO - Class toilet Accuracy: 1.000000
+2021-11-30 18:51:38,717 - Model - INFO - Class tv_stand Accuracy: 0.900000
+2021-11-30 18:51:38,717 - Model - INFO - Class vase Accuracy: 0.850000
+2021-11-30 18:51:38,717 - Model - INFO - Class wardrobe Accuracy: 0.700000
+2021-11-30 18:51:38,717 - Model - INFO - Class xbox Accuracy: 0.950000
