@@ -1,1 +1,1 @@
-# PointSCNet: Point Cloud Feature Extraction based on Structure and Correlation Learning
+# PointSCNet: Point Cloud Structure and Correlation Learning based on Space Filling Curve guided Sampling
