@@ -25,13 +25,13 @@ Download alignment **ModelNet** [here](https://shapenet.cs.stanford.edu/media/mo
 ### Run
 
 ```
-python train.py --model SCNet --log_dir SCNet_log --use_normals
+python train.py --model SCNet --log_dir SCNet_log --use_normals --process_data
 ```
 
 * --model: model name
+* --log_dir: path to log dir
 * --use_normals: use normals
 * --process_data: save data offline
-* --log_dir: path to log dir
 
 ## Test
 
