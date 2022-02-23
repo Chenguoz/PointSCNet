@@ -40,7 +40,7 @@ python test.py --log_dir SCNet_log --use_normals
 ```
 
 
-### Performance
+## Performance
 | Model | Accuracy |
 |--|--|
 | PointNet (Official) |  89.2|
