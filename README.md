@@ -1,11 +1,60 @@
 # PointSCNet: Point Cloud Structure and Correlation Learning based on Space Filling Curve guided Sampling
-# Abstract
-The geometrical structure and internal local region relationship, such as symmetry, regular array, junction, etc., are essential for understanding a 3D shape. This paper proposes a point cloud feature extraction network, namely PointSCNet, to capture the geometrical structure information and local region correlation information of the point cloud. The PointSCNet consists of three main modules: the space filling curve guided sampling module, the information fusion module and the channel-spatial attention module. The space filling curve guided sampling module use Z-order curve coding to sample points which contain geometrical correlation. The information fusion module uses a correlation tensor and a set of skip connections to fuse the structure and correlation information. The channel-spatial attention module enhances the representation of key points and crucial feature channels to refine the network. The proposed PointSCNet is evaluated on shape classification and part segmentation tasks. The experiment results demonstrate that the PointSCNet outperforms or is on par with state-of-the-art methods by learning structure and correlation of point cloud effectively.
 
 
-![image](images/example.jpg)
+## Description
+This repository contains the code for our paper: [PointSCNet: Point Cloud Structure and Correlation Learning based on Space Filling Curve guided Sampling](https://doi.org/10.3390/sym14010008)
+
+<div align="center">
+<img src="images/example.jpg" width="70%" height="70%"><br><br>
+</div>
+
+ 
+## Environment setup
+
+Current Code is tested on ubuntu18.04 with cuda11, python3.6.9, torch 1.10.0 and torchvision 0.11.3. 
+We use a [pytorch version of pointnet++](https://github.com/yanx27/Pointnet_Pointnet2_pytorch) in our pipeline.
 
 
-## Architecture
+## Classification (ModelNet10/40)
+### Data Preparation
+Download alignment **ModelNet** [here](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip) and save in `data/modelnet40_normal_resampled/`.
 
-![image](images/model.jpg)
+### Data Preparation
+
+
+### Run
+
+```
+python train.py --model SCNet --log_dir SCNet_log --use_normals
+```
+
+* --model: model name
+* --use_normals: use normals
+* --process_data: save data offline
+* --log_dir: path to log dir
+
+## Test
+
+```
+python test.py --log_dir SCNet_log --use_normals
+```
+
+
+## Citation
+Please cite our paper if you find it useful in your research:
+
+```
+@article{chen2022pointscnet,
+  title={PointSCNet: Point Cloud Structure and Correlation Learning Based on Space-Filling Curve-Guided Sampling},
+  author={Chen, Xingye and Wu, Yiqi and Xu, Wenjie and Li, Jin and Dong, Huaiyi and Chen, Yilin},
+  journal={Symmetry},
+  volume={14},
+  number={1},
+  pages={8},
+  year={2022},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+```
+
+## Contact
+If you have any questions, please contact cxy@cug.edu.cn
