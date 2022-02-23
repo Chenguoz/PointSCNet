@@ -45,7 +45,7 @@ python test.py --log_dir SCNet_log --use_normals
 |--|--|
 | PointNet (Official) |  89.2|
 | PointNet2 (Official) | 91.9 |
-| PointSCNet |  **92.8**|
+| PointSCNet |  **93.7**|
 
 
 ## Citation
