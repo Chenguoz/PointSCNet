@@ -1,7 +1,8 @@
 # PointSCNet: Point Cloud Structure and Correlation Learning based on Space Filling Curve guided Sampling
-
-
+	
 ## Description
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/pointscnet-point-cloud-structure-and/3d-point-cloud-classification-on-modelnet40)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-modelnet40?p=pointscnet-point-cloud-structure-and)
+
 This repository contains the code for our paper: [PointSCNet: Point Cloud Structure and Correlation Learning based on Space Filling Curve guided Sampling](https://doi.org/10.3390/sym14010008)
 
 <div align="center">
